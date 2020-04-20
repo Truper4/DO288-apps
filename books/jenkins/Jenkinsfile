@@ -10,8 +10,8 @@ pipeline {
     }
 
     environment {
-        DEV_PROJECT = "${RHT_OCP4_DEV_USER}-dev"
-        STAGE_PROJECT = "${RHT_OCP4_DEV_USER}-books-stage"
+        DEV_PROJECT = "vladimir-turok-t-systems-com-dev"
+        STAGE_PROJECT = "vladimir-turok-t-systems-com-books-stage"
         APP_GIT_URL = "https://github.com/truper4/DO288-apps"
         NEXUS_SERVER = "http://nexus-common.apps.ocp-eu2.prod.nextcle.com/repository/nodejs"
 
